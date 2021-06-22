@@ -1,0 +1,195 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="16c4a574-58c9-4c6e-a4a2-bbe97707329a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Multiproy</ID>
+  <Name>Multiproy</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Multiproy</DataSourceID>
+  <Schema>
+    <xs:schema id="Multiproy" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Multiproy" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="7b689aa4-8e44-401b-bf21-5335faf34607">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_fac_catalogo" msprop:design-time-name="90e824a2-839a-4f28-a1c8-ec3fdd70848b" msprop:DbTableName="fac_catalogo" msprop:FriendlyName="fac_catalogo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Título" msprop:design-time-name="5960a817-34d0-4b3c-9066-b186febe67e2" msprop:DbColumnName="Título" msprop:FriendlyName="Título" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Tipo_x0020_de_x0020_Compromiso" msprop:design-time-name="2d2b778a-cc2b-4d2e-9763-56081e7d0404" msprop:DbColumnName="Tipo de Compromiso" msprop:FriendlyName="Tipo de Compromiso" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Formatos_x0020_disponibles_x0020_para_x0020_descarga" msprop:design-time-name="f9ee6c1f-5f23-4956-8fdd-53b7d1cffac4" msprop:DbColumnName="Formatos disponibles para descarga" msprop:FriendlyName="Formatos disponibles para descarga" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Enlace_x0020_al_x0020_contenido" msprop:design-time-name="f1dc9a47-4bbb-48ce-b6fb-e73653e32054" msprop:DbColumnName="Enlace al contenido" msprop:FriendlyName="Enlace al contenido" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="keyConsejeria" msprop:design-time-name="9c371213-286e-4977-8868-8d507565acf6" msprop:DbColumnName="keyConsejeria" msprop:FriendlyName="keyConsejeria" type="xs:double" minOccurs="0" />
+                  <xs:element name="keyOrganismo" msprop:design-time-name="fd87ee01-c6a0-42d0-8d68-c396f318f0cd" msprop:DbColumnName="keyOrganismo" msprop:FriendlyName="keyOrganismo" type="xs:double" minOccurs="0" />
+                  <xs:element name="keyMateria" msprop:design-time-name="eea2ae0b-4674-4175-9797-84c68306df70" msprop:DbColumnName="keyMateria" msprop:FriendlyName="keyMateria" type="xs:double" minOccurs="0" />
+                  <xs:element name="keyActualizacion" msprop:design-time-name="3a97f873-4251-45be-aced-f45724ac820f" msprop:DbColumnName="keyActualizacion" msprop:FriendlyName="keyActualizacion" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dimorganismo" msprop:design-time-name="400ca049-e64e-4f35-82a0-758f01e8b074" msprop:DbTableName="Dimorganismo" msprop:FriendlyName="Dimorganismo" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="keyOrganismo" msprop:design-time-name="062975eb-3996-472d-b39e-b5bdb4e444f1" msprop:DbColumnName="keyOrganismo" msprop:FriendlyName="keyOrganismo" type="xs:double" />
+                  <xs:element name="idOrganismo" msprop:design-time-name="5e8c5b92-22d2-4729-93ad-500c01e57f20" msprop:DbColumnName="idOrganismo" msprop:FriendlyName="idOrganismo" type="xs:double" minOccurs="0" />
+                  <xs:element name="ArchivoOrganismo" msprop:design-time-name="ccfd0be5-9ea6-4392-ad85-533be5a93117" msprop:DbColumnName="ArchivoOrganismo" msprop:FriendlyName="ArchivoOrganismo" type="xs:double" minOccurs="0" />
+                  <xs:element name="OrganismoResponsable" msprop:design-time-name="3d8b6602-165e-4211-8bca-ef7abe1f4eda" msprop:DbColumnName="OrganismoResponsable" msprop:FriendlyName="OrganismoResponsable" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dimmateria" msprop:design-time-name="fd8f1690-323a-44f6-9b3f-2256e5efc275" msprop:DbTableName="Dimmateria" msprop:FriendlyName="Dimmateria" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="keyMateria" msprop:design-time-name="a28dc784-fcd6-4444-b001-531cdaf867df" msprop:DbColumnName="keyMateria" msprop:FriendlyName="keyMateria" type="xs:double" />
+                  <xs:element name="idMateria" msprop:design-time-name="a0976877-37ef-4152-9e56-f09e8da8e0f7" msprop:DbColumnName="idMateria" msprop:FriendlyName="idMateria" type="xs:double" minOccurs="0" />
+                  <xs:element name="ArchivoMateria" msprop:design-time-name="826fee6d-32ed-438c-8ff4-0d4cfe7d8dc9" msprop:DbColumnName="ArchivoMateria" msprop:FriendlyName="ArchivoMateria" type="xs:double" minOccurs="0" />
+                  <xs:element name="MateriaCatalogo" msprop:design-time-name="423149b0-15b0-4a49-a1ac-0285e4518c5b" msprop:DbColumnName="MateriaCatalogo" msprop:FriendlyName="MateriaCatalogo" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dimconsejeria" msprop:design-time-name="f6c8560a-809c-4b4c-aaaf-8ce243275c0b" msprop:DbTableName="Dimconsejeria" msprop:FriendlyName="Dimconsejeria" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="keyConsejeria" msprop:design-time-name="c36ab312-5c32-4ce4-bfd6-83f26cc6aed1" msprop:DbColumnName="keyConsejeria" msprop:FriendlyName="keyConsejeria" type="xs:double" />
+                  <xs:element name="idConsejeria" msprop:design-time-name="813a5f4f-5fcb-4ce8-95a4-c9b9e18fb01d" msprop:DbColumnName="idConsejeria" msprop:FriendlyName="idConsejeria" type="xs:double" minOccurs="0" />
+                  <xs:element name="ArchivoConsejeria" msprop:design-time-name="bf9d702e-d39f-46f4-b36b-7ffdb2bd5523" msprop:DbColumnName="ArchivoConsejeria" msprop:FriendlyName="ArchivoConsejeria" type="xs:double" minOccurs="0" />
+                  <xs:element name="ConsejeriaResponsable" msprop:design-time-name="eb20dd54-869c-4828-9bdb-341847aa2e49" msprop:DbColumnName="ConsejeriaResponsable" msprop:FriendlyName="ConsejeriaResponsable" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dimactualizacion" msprop:design-time-name="4d654d56-3066-449a-9f1e-bc9d5b8f90d5" msprop:DbTableName="Dimactualizacion" msprop:FriendlyName="Dimactualizacion" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="keyActualizacion" msprop:design-time-name="b7bf1ac9-9e44-404f-ba80-5c9eedd4e7c6" msprop:DbColumnName="keyActualizacion" msprop:FriendlyName="keyActualizacion" type="xs:double" />
+                  <xs:element name="idActualizacion" msprop:design-time-name="33f0e8ed-04d7-4ab2-aa05-75ae8f442f41" msprop:DbColumnName="idActualizacion" msprop:FriendlyName="idActualizacion" type="xs:double" minOccurs="0" />
+                  <xs:element name="Frecuencia_x0020_de_x0020_actualización" msprop:design-time-name="b6fdd77e-3133-4b6b-b58d-f94da754913c" msprop:DbColumnName="Frecuencia de actualización" msprop:FriendlyName="Frecuencia de actualización" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ultimaActualizacion" msprop:design-time-name="17d314e6-c9f4-4d6e-9e27-5a408ebff00c" msprop:DbColumnName="ultimaActualizacion" msprop:FriendlyName="ultimaActualizacion" type="xs:double" minOccurs="0" />
+                  <xs:element name="Estado" msprop:design-time-name="e364e2b3-6e6d-4afa-ab8c-e262d6efb432" msprop:DbColumnName="Estado" msprop:FriendlyName="Estado" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dimorganismo" />
+          <xs:field xpath="keyOrganismo" />
+        </xs:unique>
+        <xs:unique name="dbo_Dimmateria_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dimmateria" />
+          <xs:field xpath="keyMateria" />
+        </xs:unique>
+        <xs:unique name="dbo_Dimconsejeria_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dimconsejeria" />
+          <xs:field xpath="keyConsejeria" />
+        </xs:unique>
+        <xs:unique name="dbo_Dimactualizacion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dimactualizacion" />
+          <xs:field xpath="keyActualizacion" />
+        </xs:unique>
+        <xs:keyref name="fk_Dimactualizacion" refer="dbo_Dimactualizacion_Constraint1">
+          <xs:selector xpath=".//dbo_fac_catalogo" />
+          <xs:field xpath="keyActualizacion" />
+        </xs:keyref>
+        <xs:keyref name="fk_Dimconsejeria" refer="dbo_Dimconsejeria_Constraint1">
+          <xs:selector xpath=".//dbo_fac_catalogo" />
+          <xs:field xpath="keyConsejeria" />
+        </xs:keyref>
+        <xs:keyref name="fk_Dimmateria" refer="dbo_Dimmateria_Constraint1">
+          <xs:selector xpath=".//dbo_fac_catalogo" />
+          <xs:field xpath="keyMateria" />
+        </xs:keyref>
+        <xs:keyref name="fk_Dimorganismo" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fac_catalogo" />
+          <xs:field xpath="keyOrganismo" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Multiproy xmlns="" />
+  </Schema>
+</DataSourceView>
